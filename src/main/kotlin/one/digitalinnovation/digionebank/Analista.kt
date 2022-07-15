@@ -5,6 +5,4 @@ class Analista(nome: String,
                salario: Double
 ):Funcionario(nome, cpf, salario) {
     override fun calculoAuxilio() = salario * 0.1
-
-
 }

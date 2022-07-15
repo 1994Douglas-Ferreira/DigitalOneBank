@@ -2,7 +2,7 @@ package one.digitalinnovation.digionebank.testes
 
 import one.digitalinnovation.digionebank.ClienteTipo
 
-fun main(){
+fun main() {
     ClienteTipo.values().forEach { elemento ->
         println("${elemento.name} -> ${elemento.descricao}")
     }
@@ -15,8 +15,4 @@ fun main(){
 
     val pj = ClienteTipo.PJ
     println("${pj.name} -> ${pj.descricao}")
-
-  /*  companion object {
-        fun printDescricao() =
-    }*/
 }

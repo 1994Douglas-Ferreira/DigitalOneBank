@@ -1,8 +1,6 @@
 package one.digitalinnovation.digionebank.testes
 
 import one.digitalinnovation.digionebank.Analista
-import one.digitalinnovation.digionebank.Funcionario
-import one.digitalinnovation.digionebank.testes.ImprimeRelatorioFuncionario.Companion.imprime
 
 
 fun main(){
